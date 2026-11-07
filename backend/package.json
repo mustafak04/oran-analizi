@@ -1,0 +1,19 @@
+{
+  "name": "oran-analizi-backend",
+  "version": "1.0.0",
+  "description": "İddaa Oran Analiz ve Kupon Simülasyon Backend & Scraper API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.49.1"
+  }
+}
+

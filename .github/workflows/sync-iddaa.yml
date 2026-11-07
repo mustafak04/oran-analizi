@@ -1,0 +1,38 @@
+name: 7/24 İddaa Kapanış Oranı ve Maç Sonucu Kaydedici
+
+on:
+  schedule:
+    # 7/24 her 20 dakikada bir otomatik çalışır
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # GitHub arayüzünden tek tıkla manuel çalıştırma desteği
+
+permissions:
+  contents: write
+
+jobs:
+  sync-matches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu İndir (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Node.js 22 Kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: İddaa Bültenini ve Biten Maç Skorlarını Çek
+        run: node backend/sync-cli.js
+
+      - name: Güncellenen Veritabanını GitHub'a Kaydet
+        run: |
+          git config user.name "OranAnaliz Bot"
+          git config user.email "bot@orananaliz.local"
+          git add backend/data/matches.json
+          if git diff --staged --quiet; then
+            echo "Veritabanında değişiklik yok."
+          else
+            git commit -m "Otomatik Bülten & Kapanış Oranı Güncellemesi ($(date -u +'%d.%m.%Y %H:%M UTC'))"
+            git pull --rebase origin main || true
+            git push
+          fi
