@@ -134,6 +134,7 @@ app.get('/api/matches/:code/odds', async (req, res) => {
  * Kayıtlı kullanıcı filtrelerini döndürür
  */
 app.get('/api/filters', (req, res) => {
+  savedFiltersCache = loadSavedFilters();
   res.json({
     success: true,
     filters: savedFiltersCache

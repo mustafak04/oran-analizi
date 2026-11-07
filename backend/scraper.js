@@ -595,51 +595,48 @@ function saveMatchesDatabase(matches) {
 
 const DEFAULT_SAVED_FILTERS = [
   {
-    id: 'preset-fav-kg',
-    name: 'Favori Ev & KG Var (MS1 < 1.70 & KG > 1.50)',
+    id: 'preset-plus6-gol',
+    name: '+6 Gol Filtresi',
     createdAt: '07.11.2026',
     statusFilter: 'ALL',
     selectedLeague: 'ALL',
     columnFilters: {},
     rules: [
-      { id: 101, logic: 'AND', field: 'odds.ms1', operator: '<', value: '1.70' },
-      { id: 102, logic: 'AND', field: 'odds.kgVar', operator: '>', value: '1.50' }
+      { id: 1001, group: 1, logic: 'AND', field: 'odds.skor33', operator: '<=', value: '29.00' },
+      { id: 1002, group: 2, logic: 'OR', field: 'odds.skor51', operator: '<=', value: '40.00' },
+      { id: 1003, group: 2, logic: 'OR', field: 'odds.skor42', operator: '<=', value: '40.00' },
+      { id: 1004, group: 2, logic: 'OR', field: 'odds.skor24', operator: '<=', value: '40.00' },
+      { id: 1005, group: 2, logic: 'OR', field: 'odds.skor15', operator: '<=', value: '40.00' }
     ]
   },
   {
-    id: 'preset-banko-ust',
-    name: 'Ev Favori & 2.5 Üst (MS1 <= 1.65 & 2.5 Üst <= 1.75)',
+    id: 'preset-5-gol-1',
+    name: '5 Gol Filtresi(1)',
     createdAt: '07.11.2026',
     statusFilter: 'ALL',
     selectedLeague: 'ALL',
     columnFilters: {},
     rules: [
-      { id: 201, logic: 'AND', field: 'odds.ms1', operator: '<=', value: '1.65' },
-      { id: 202, logic: 'AND', field: 'odds.ust25', operator: '<=', value: '1.75' }
+      { id: 2001, group: 1, logic: 'AND', field: 'odds.skor33', operator: '<=', value: '29.00' },
+      { id: 2002, group: 1, logic: 'AND', field: 'odds.skor51', operator: '>', value: '40.00' },
+      { id: 2003, group: 1, logic: 'AND', field: 'odds.skor42', operator: '>', value: '40.00' },
+      { id: 2004, group: 1, logic: 'AND', field: 'odds.skor15', operator: '>', value: '40.00' },
+      { id: 2005, group: 1, logic: 'AND', field: 'odds.skor24', operator: '>', value: '40.00' }
     ]
   },
   {
-    id: 'preset-kg-ust',
-    name: 'Gollü Maç Kuralı (KG Var <= 1.65 & 2.5 Üst <= 1.70)',
+    id: 'preset-5-gol-2',
+    name: '5 Gol Filtresi(2)',
     createdAt: '07.11.2026',
     statusFilter: 'ALL',
     selectedLeague: 'ALL',
     columnFilters: {},
     rules: [
-      { id: 301, logic: 'AND', field: 'odds.kgVar', operator: '<=', value: '1.65' },
-      { id: 302, logic: 'AND', field: 'odds.ust25', operator: '<=', value: '1.70' }
-    ]
-  },
-  {
-    id: 'preset-dep-fav',
-    name: 'Deplasman Favori (MS2 < 1.80 & ÇŞ X-2 <= 1.25)',
-    createdAt: '07.11.2026',
-    statusFilter: 'ALL',
-    selectedLeague: 'ALL',
-    columnFilters: {},
-    rules: [
-      { id: 401, logic: 'AND', field: 'odds.ms2', operator: '<', value: '1.80' },
-      { id: 402, logic: 'AND', field: 'odds.csX2', operator: '<=', value: '1.25' }
+      { id: 3001, group: 1, logic: 'AND', field: 'odds.skor33', operator: '>', value: '29.00' },
+      { id: 3002, group: 2, logic: 'OR', field: 'odds.skor51', operator: '<=', value: '40.00' },
+      { id: 3003, group: 2, logic: 'OR', field: 'odds.skor42', operator: '<=', value: '40.00' },
+      { id: 3004, group: 2, logic: 'OR', field: 'odds.skor15', operator: '<=', value: '40.00' },
+      { id: 3005, group: 2, logic: 'OR', field: 'odds.skor24', operator: '<=', value: '40.00' }
     ]
   }
 ];

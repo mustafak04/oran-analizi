@@ -176,11 +176,40 @@ function evaluateSingleRule(match, rule) {
 }
 
 /**
- * Çoklu Kural Motoru değerlendirici (VE / VEYA bağlaçları ile)
+ * Çoklu Kural Motoru değerlendirici (Grup & VE / VEYA bağlaçları ile)
+ * Aynı grup (group) içindeki kurallar kendi içlerinde VE/VEYA ile hesaplanır,
+ * farklı gruplar ise birbirine VE (AND) paranteziyle bağlanır.
+ * Örneğin: Grup 1: (3-3 <= 29) VE Grup 2: (5-1 <= 40 VEYA 4-2 <= 40 VEYA 2-4 <= 40 VEYA 1-5 <= 40)
  */
 function evaluateAllRules(match, rules) {
   const activeRules = rules.filter((r) => String(r.value || '').trim() !== '');
   if (activeRules.length === 0) return true;
+
+  // Kurallarda grup (group) tanımlıysa gruplara ayırıp her grubu parantez gibi değerlendir, grupları VE ile birleştir
+  const hasExplicitGroups = activeRules.some((r) => r.group !== undefined && r.group !== null);
+  if (hasExplicitGroups) {
+    const groupsMap = new Map();
+    for (const r of activeRules) {
+      const gKey = r.group || 1;
+      if (!groupsMap.has(gKey)) groupsMap.set(gKey, []);
+      groupsMap.get(gKey).push(r);
+    }
+
+    for (const [, groupRules] of groupsMap.entries()) {
+      let groupResult = evaluateSingleRule(match, groupRules[0]);
+      for (let i = 1; i < groupRules.length; i++) {
+        const rule = groupRules[i];
+        const currentEval = evaluateSingleRule(match, rule);
+        if (rule.logic === 'OR') {
+          groupResult = groupResult || currentEval;
+        } else {
+          groupResult = groupResult && currentEval;
+        }
+      }
+      if (!groupResult) return false;
+    }
+    return true;
+  }
 
   let result = evaluateSingleRule(match, activeRules[0]);
   for (let i = 1; i < activeRules.length; i++) {
@@ -274,6 +303,7 @@ export default function App() {
       const data = await res.json();
       if (data.success && Array.isArray(data.filters)) {
         setSavedFilters(data.filters);
+        localStorage.setItem('orananaliz_saved_filters', JSON.stringify(data.filters));
       }
     } catch (_) {
       const local = localStorage.getItem('orananaliz_saved_filters');
@@ -518,6 +548,7 @@ export default function App() {
       ...prev,
       {
         id: Date.now() + Math.random(),
+        group: 1,
         logic: 'AND',
         field: 'odds.ms1',
         operator: '<',
@@ -546,12 +577,21 @@ export default function App() {
     setStatusFilter(flt.statusFilter || 'ALL');
     setSelectedLeague(flt.selectedLeague || 'ALL');
     setColumnFilters(flt.columnFilters || {});
-    setRules(
-      Array.isArray(flt.rules)
-        ? flt.rules.map((r) => ({ ...r, id: r.id || Date.now() + Math.random() }))
-        : []
-    );
+    const nextRules = Array.isArray(flt.rules)
+      ? flt.rules.map((r) => ({ ...r, group: r.group || 1, id: r.id || Date.now() + Math.random() }))
+      : [];
+    setRules(nextRules);
     setNewFilterName(flt.name);
+
+    // Eğer seçilen filtrede Maç Skoru (odds.skor...) veya İY Skoru (odds.iyskor...) varsa ilgili sütun grubunu otomatik görünür yap
+    if (nextRules.some((r) => String(r.field).startsWith('odds.skor'))) {
+      setVisibleGroupIds((prev) => (prev.includes('skor') ? prev : [...prev, 'skor']));
+      setActivePresetId('custom');
+    }
+    if (nextRules.some((r) => String(r.field).startsWith('odds.iyskor'))) {
+      setVisibleGroupIds((prev) => (prev.includes('iyskor') ? prev : [...prev, 'iyskor']));
+      setActivePresetId('custom');
+    }
   };
 
   // Mevcut Filtreyi (Kurallar + Excel Sütun Filtreleri) Kaydetme
@@ -885,11 +925,22 @@ export default function App() {
                 {rules.map((rule, idx) => (
                   <div
                     key={rule.id}
-                    className="flex items-center gap-2 bg-slate-950 p-2 rounded-lg border border-slate-800"
+                    className="flex items-center gap-1.5 bg-slate-950 p-2 rounded-lg border border-slate-800"
                   >
-                    {idx === 0 ? (
+                    <select
+                      value={rule.group || 1}
+                      onChange={(e) => updateRule(rule.id, { group: Number(e.target.value) })}
+                      title="Parantez Grubu: Farklı gruplar birbirine VE ile bağlanır. Örn: Grup 1 (Zorunlu) VE Grup 2 (En az biri VEYA)"
+                      className="bg-amber-950/60 text-amber-300 border border-amber-700/60 rounded px-1.5 py-1 text-[11px] font-bold outline-none shrink-0"
+                    >
+                      <option value={1}>Grup 1</option>
+                      <option value={2}>Grup 2</option>
+                      <option value={3}>Grup 3</option>
+                    </select>
+
+                    {idx === 0 || (idx > 0 && (rules[idx - 1]?.group || 1) !== (rule.group || 1)) ? (
                       <span className="text-[11px] font-bold px-2 py-1 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 shrink-0">
-                        KOŞUL 1
+                        BAŞLANGIÇ
                       </span>
                     ) : (
                       <select
