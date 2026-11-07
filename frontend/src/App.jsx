@@ -423,7 +423,7 @@ export default function App() {
 
     const getBucket = (m) => {
       if (m.status === 'FINISHED') return 2;
-      const isStartedOrLive = m.status === 'LIVE' || (m.timestamp && m.timestamp <= nowSec);
+      const isStartedOrLive = Boolean(m.timestamp && m.timestamp <= nowSec);
       return isStartedOrLive ? 1 : 0;
     };
 
@@ -1438,7 +1438,7 @@ export default function App() {
                           <td className="px-1.5 py-1.5 text-center font-mono font-semibold border-r border-slate-800/80 bg-slate-950/40">
                             {isFinished ? (
                               <span className="text-amber-300">{match.htScore}</span>
-                            ) : match.status === 'LIVE' || (match.timestamp && match.timestamp <= Math.floor(Date.now() / 1000)) ? (
+                            ) : match.timestamp && match.timestamp <= Math.floor(Date.now() / 1000) ? (
                               <span className="text-rose-400 text-[10px] font-sans font-bold animate-pulse">
                                 Canlı
                               </span>

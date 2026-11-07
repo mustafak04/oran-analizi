@@ -322,8 +322,7 @@ function mergeMatchesIntoPermanentArchive(existingMatches = [], newUpcoming = []
 
     const openingOdds = prev?.openingOdds || prev?.odds || upMatch.odds;
 
-    const hasMatchStarted =
-      upMatch.status === 'LIVE' || (upMatch.timestamp && nowSec >= upMatch.timestamp - 60);
+    const hasMatchStarted = Boolean(upMatch.timestamp && nowSec >= upMatch.timestamp - 60);
 
     const effectiveClosingOdds =
       hasMatchStarted && prev?.odds && prev.odds.ms1 && prev.odds.ms1 !== '-'
@@ -336,6 +335,7 @@ function mergeMatchesIntoPermanentArchive(existingMatches = [], newUpcoming = []
     archiveByCode.set(codeKey, {
       ...(prev || {}),
       ...upMatch,
+      status: hasMatchStarted ? 'LIVE' : 'UPCOMING',
       openingOdds,
       odds: effectiveClosingOdds,
       hasFullScoreMarkets: Boolean(upMatch.hasFullScoreMarkets || prev?.hasFullScoreMarkets),
@@ -370,19 +370,24 @@ function mergeMatchesIntoPermanentArchive(existingMatches = [], newUpcoming = []
   for (const [codeKey, m] of archiveByCode.entries()) {
     if (m.status === 'FINISHED') {
       finalArray.push(m);
-    } else if (currentBulletinCodes.has(codeKey)) {
-      finalArray.push(m);
+    } else if (currentBulletinCodes.has(codeKey) || !m.timestamp || m.timestamp > nowSec - 28800) {
+      // Başlama saati geçmiş olan maçları LIVE olarak işaretle, başlamamış olanları UPCOMING yap
+      const isStartedNow = Boolean(m.timestamp && m.timestamp <= nowSec);
+      finalArray.push({
+        ...m,
+        status: isStartedNow ? 'LIVE' : 'UPCOMING'
+      });
     }
   }
 
   // Henüz başlamamış maçlar (gelecek maçlar) en üstte saat sırasıyla:
   const notStartedUpcoming = finalArray
-    .filter((m) => m.status !== 'FINISHED' && m.status !== 'LIVE' && (!m.timestamp || m.timestamp > nowSec))
+    .filter((m) => m.status !== 'FINISHED' && (!m.timestamp || m.timestamp > nowSec))
     .sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
 
-  // Şu an oynanmakta olan (LIVE) veya başlama saati geçmiş maçlar bültenin altında:
+  // Şu an oynanmakta olan (LIVE / başlama saati geçmiş) maçlar bültenin altında:
   const liveOrStartedPart = finalArray
-    .filter((m) => m.status !== 'FINISHED' && (m.status === 'LIVE' || (m.timestamp && m.timestamp <= nowSec)))
+    .filter((m) => m.status !== 'FINISHED' && m.timestamp && m.timestamp <= nowSec)
     .sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
 
   // Biten (FINISHED) maçlar en yeniden en eskiye:
@@ -424,10 +429,13 @@ async function scrapeLiveIddaaMatches(existingMatches = []) {
 
       for (const ev of events) {
         if (!ev.hn || !ev.an) continue;
-        // Canlıda (oynanmakta) olan maçları eğer daha önce kaydetmediysek maç önü oranı olmadığı için atla
-        if (ev.il && !existingByCode.has(String(ev.i))) continue;
-
         const dt = formatUnixTimestampTR(ev.d);
+        const nowSec = Math.floor(Date.now() / 1000);
+        const isActuallyLive = Boolean(dt.timestamp && dt.timestamp <= nowSec);
+
+        // Gerçekten başlamış (canlı) olan maçları eğer daha önce kaydetmediysek maç önü oranı olmadığı için atla
+        if (isActuallyLive && !existingByCode.has(String(ev.i))) continue;
+
         const leagueName = compMap.get(Number(ev.ci)) || `Lig #${ev.ci}`;
         const parsedOdds = parseIddaaMarketsArray(ev.m || []);
 
@@ -442,7 +450,7 @@ async function scrapeLiveIddaaMatches(existingMatches = []) {
           league: leagueName,
           homeTeam: ev.hn,
           awayTeam: ev.an,
-          status: ev.il ? 'LIVE' : 'UPCOMING',
+          status: isActuallyLive ? 'LIVE' : 'UPCOMING',
           mbs: ev.mbc || 1,
           htScore: '-',
           ftScore: '-',
