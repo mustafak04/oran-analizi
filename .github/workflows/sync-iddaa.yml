@@ -36,3 +36,4 @@ jobs:
             git pull --rebase origin main || true
             git push
           fi
+

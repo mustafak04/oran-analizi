@@ -16,3 +16,4 @@ echo [3/3] Sunucu baslatiliyor...
 cd backend
 node server.js
 pause
+

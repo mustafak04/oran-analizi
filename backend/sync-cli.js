@@ -33,3 +33,4 @@ runCliSync().catch((err) => {
   console.error('[Sync-CLI] Hata:', err.message);
   process.exit(1);
 });
+
