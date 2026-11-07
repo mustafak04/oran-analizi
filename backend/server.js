@@ -28,6 +28,18 @@ let lastSyncMethod = matchesCache.length > 0 ? 'iddaa-permanent-archive' : 'init
  * ve eski tarihli hiçbir maçı silmeden KALICI ARŞİVE birleştirme
  */
 async function performSync() {
+  // Diskte GitHub veya dışarıdan güncellenmiş maçlar varsa önce bellektekiyle birleştir
+  const diskMatches = loadMatchesDatabase();
+  if (diskMatches.length > 0) {
+    const map = new Map(matchesCache.map((m) => [String(m.code), m]));
+    for (const dm of diskMatches) {
+      if (dm && dm.code && !map.has(String(dm.code))) {
+        map.set(String(dm.code), dm);
+      }
+    }
+    matchesCache = Array.from(map.values());
+  }
+
   const result = await scrapeLiveIddaaMatches(matchesCache);
   if (result.success && result.matches.length > 0) {
     matchesCache = result.matches;
