@@ -44,10 +44,8 @@ async function performSync() {
   };
 }
 
-// Sunucu açılışında eğer veritabanı boşsa arka planda canlı bülteni çek
-if (matchesCache.length === 0) {
-  performSync().catch((err) => console.error('İlk senkronizasyon hatası:', err.message));
-}
+// Sunucu açılışında hemen canlı bülteni ve biten maçları senkronize et
+performSync().catch((err) => console.error('İlk senkronizasyon hatası:', err.message));
 
 // Her 5 dakikada bir otomatik bülten, kapanış oranı ve maç sonucu güncelleme (kalıcı arşive ekler)
 cron.schedule('*/5 * * * *', async () => {

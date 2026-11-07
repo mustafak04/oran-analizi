@@ -49,3 +49,4 @@ try {
   console.error('JSON birleştirme hatası:', err.message);
   process.exit(1);
 }
+

@@ -370,20 +370,27 @@ function mergeMatchesIntoPermanentArchive(existingMatches = [], newUpcoming = []
   for (const [codeKey, m] of archiveByCode.entries()) {
     if (m.status === 'FINISHED') {
       finalArray.push(m);
-    } else if (currentBulletinCodes.has(codeKey) || !m.timestamp || m.timestamp > nowSec - 14400) {
+    } else if (currentBulletinCodes.has(codeKey)) {
       finalArray.push(m);
     }
   }
 
-  const upcomingPart = finalArray
-    .filter((m) => m.status !== 'FINISHED')
+  // Henüz başlamamış maçlar (gelecek maçlar) en üstte saat sırasıyla:
+  const notStartedUpcoming = finalArray
+    .filter((m) => m.status !== 'FINISHED' && m.status !== 'LIVE' && (!m.timestamp || m.timestamp > nowSec))
     .sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
 
+  // Şu an oynanmakta olan (LIVE) veya başlama saati geçmiş maçlar bültenin altında:
+  const liveOrStartedPart = finalArray
+    .filter((m) => m.status !== 'FINISHED' && (m.status === 'LIVE' || (m.timestamp && m.timestamp <= nowSec)))
+    .sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+
+  // Biten (FINISHED) maçlar en yeniden en eskiye:
   const finishedPart = finalArray
     .filter((m) => m.status === 'FINISHED')
     .sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
 
-  return [...upcomingPart, ...finishedPart];
+  return [...notStartedUpcoming, ...liveOrStartedPart, ...finishedPart];
 }
 
 /**

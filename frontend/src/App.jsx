@@ -379,9 +379,10 @@ export default function App() {
     );
   };
 
-  // Tüm filtreleri uygula
+  // Tüm filtreleri uygula ve başlamamış güncel bülten maçlarını her zaman en üstte sırala
   const filteredMatches = useMemo(() => {
-    return matches.filter((m) => {
+    const nowSec = Math.floor(Date.now() / 1000);
+    const list = matches.filter((m) => {
       if (statusFilter === 'UPCOMING' && m.status === 'FINISHED') return false;
       if (statusFilter === 'FINISHED' && m.status !== 'FINISHED') return false;
 
@@ -418,6 +419,20 @@ export default function App() {
       }
 
       return true;
+    });
+
+    const getBucket = (m) => {
+      if (m.status === 'FINISHED') return 2;
+      const isStartedOrLive = m.status === 'LIVE' || (m.timestamp && m.timestamp <= nowSec);
+      return isStartedOrLive ? 1 : 0;
+    };
+
+    return list.sort((a, b) => {
+      const bA = getBucket(a);
+      const bB = getBucket(b);
+      if (bA !== bB) return bA - bB;
+      if (bA === 2) return (b.timestamp || 0) - (a.timestamp || 0);
+      return (a.timestamp || 0) - (b.timestamp || 0);
     });
   }, [matches, statusFilter, selectedLeague, selectedDate, teamSearch, columnFilters, rules]);
 
@@ -1423,6 +1438,10 @@ export default function App() {
                           <td className="px-1.5 py-1.5 text-center font-mono font-semibold border-r border-slate-800/80 bg-slate-950/40">
                             {isFinished ? (
                               <span className="text-amber-300">{match.htScore}</span>
+                            ) : match.status === 'LIVE' || (match.timestamp && match.timestamp <= Math.floor(Date.now() / 1000)) ? (
+                              <span className="text-rose-400 text-[10px] font-sans font-bold animate-pulse">
+                                Canlı
+                              </span>
                             ) : (
                               <span className="text-sky-400 text-[10px] font-sans font-semibold">
                                 Bülten
