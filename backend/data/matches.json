@@ -16,24 +16,24 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "3.33",
-      "msX": "3.02",
-      "ms2": "1.77",
+      "ms1": "3.27",
+      "msX": "2.96",
+      "ms2": "1.81",
       "alt25": "1.56",
       "ust25": "1.81",
-      "alt15": "2.81",
+      "alt15": "2.82",
       "ust15": "1.19",
       "alt35": "1.15",
-      "ust35": "3.13",
-      "tg01": "2.86",
+      "ust35": "3.11",
+      "tg01": "2.87",
       "tg23": "1.77",
       "tg45": "3.88",
-      "tg6p": "17.55",
+      "tg6p": "17.40",
       "kgVar": "1.66",
-      "kgYok": "1.68",
-      "cs1X": "1.54",
-      "cs12": "1.16",
-      "csX2": "1.13"
+      "kgYok": "1.69",
+      "cs1X": "1.51",
+      "cs12": "1.17",
+      "csX2": "1.14"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -64,22 +64,22 @@
       "ms1": "1.16",
       "msX": "4.95",
       "ms2": "7.53",
-      "alt35": "1.56",
-      "ust35": "1.82",
+      "alt35": "1.58",
+      "ust35": "1.77",
       "iy1": "1.49",
-      "iyX": "2.66",
-      "iy2": "6.64",
-      "kgVar": "1.55",
-      "kgYok": "1.82",
+      "iyX": "2.68",
+      "iy2": "6.60",
+      "kgVar": "1.53",
+      "kgYok": "1.84",
       "cs1X": "1.00",
       "cs12": "1.00",
       "csX2": "2.68",
-      "tg01": "5.67",
-      "tg23": "2.06",
-      "tg45": "2.56",
-      "tg6p": "5.68",
-      "alt25": "2.46",
-      "ust25": "1.26"
+      "tg01": "5.89",
+      "tg23": "2.09",
+      "tg45": "2.53",
+      "tg6p": "5.43",
+      "alt25": "2.52",
+      "ust25": "1.25"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -518,19 +518,19 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "1.33",
-      "msX": "4.08",
-      "ms2": "5.00",
-      "iy1": "1.75",
-      "iyX": "2.36",
-      "iy2": "5.04",
-      "alt35": "1.41",
-      "ust35": "2.05",
+      "ms1": "1.32",
+      "msX": "4.11",
+      "ms2": "5.23",
+      "iy1": "1.71",
+      "iyX": "2.40",
+      "iy2": "5.17",
+      "alt35": "1.43",
+      "ust35": "2.00",
       "kgVar": "1.49",
-      "kgYok": "1.91",
+      "kgYok": "1.92",
       "cs1X": "1.00",
       "cs12": "1.07",
-      "csX2": "2.10"
+      "csX2": "2.15"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -991,25 +991,25 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "1.13",
-      "msX": "4.89",
-      "ms2": "9.76",
+      "ms1": "1.14",
+      "msX": "4.79",
+      "ms2": "9.44",
       "alt35": "1.28",
       "ust35": "2.43",
-      "iy1": "1.49",
+      "iy1": "1.50",
       "iyX": "2.43",
-      "iy2": "8.77",
-      "kgVar": "2.05",
-      "kgYok": "1.41",
+      "iy2": "8.53",
+      "kgVar": "2.01",
+      "kgYok": "1.43",
       "cs1X": "1.00",
       "cs12": "1.00",
-      "csX2": "2.87",
-      "alt15": "3.55",
+      "csX2": "2.82",
+      "alt15": "3.56",
       "ust15": "1.09",
       "tg01": "3.73",
       "tg23": "1.83",
       "tg45": "3.13",
-      "tg6p": "10.45",
+      "tg6p": "10.40",
       "alt25": "1.87",
       "ust25": "1.51"
     },
@@ -1329,16 +1329,16 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "2.41",
-      "msX": "3.00",
-      "ms2": "2.49",
-      "alt35": "1.17",
-      "ust35": "3.33",
-      "iy1": "3.07",
-      "iyX": "1.97",
-      "iy2": "3.16",
-      "kgVar": "1.66",
-      "kgYok": "1.83",
+      "ms1": "2.46",
+      "msX": "2.97",
+      "ms2": "2.44",
+      "alt35": "1.16",
+      "ust35": "3.42",
+      "iy1": "3.14",
+      "iyX": "1.95",
+      "iy2": "3.12",
+      "kgVar": "1.67",
+      "kgYok": "1.81",
       "skor10": "6.59",
       "skor20": "9.17",
       "skor21": "8.09",
@@ -1368,15 +1368,15 @@
       "skor15": "135.00",
       "skor06": "135.00",
       "skorDiger": "44.50",
-      "iyms11": "3.94",
-      "iyms1X": "13.55",
+      "iyms11": "4.06",
+      "iyms1X": "13.60",
       "iyms12": "32.00",
-      "iymsX1": "5.79",
-      "iymsXX": "4.46",
-      "iymsX2": "5.95",
-      "iyms21": "31.00",
+      "iymsX1": "5.88",
+      "iymsXX": "4.39",
+      "iymsX2": "5.84",
+      "iyms21": "32.00",
       "iyms2X": "13.60",
-      "iyms22": "4.11",
+      "iyms22": "4.03",
       "iyskor00": "2.55",
       "iyskor11": "8.24",
       "iyskor22": "67.00",
@@ -1387,17 +1387,17 @@
       "iyskor02": "20.75",
       "iyskor12": "32.50",
       "iyskorDiger": "20.35",
-      "cs1X": "1.33",
-      "cs12": "1.23",
-      "csX2": "1.36",
-      "alt15": "3.05",
-      "ust15": "1.22",
-      "tg01": "2.99",
+      "cs1X": "1.34",
+      "cs12": "1.24",
+      "csX2": "1.34",
+      "alt15": "2.99",
+      "ust15": "1.23",
+      "tg01": "2.93",
       "tg23": "1.81",
-      "tg45": "3.96",
-      "tg6p": "17.75",
-      "alt25": "1.62",
-      "ust25": "1.87"
+      "tg45": "4.05",
+      "tg6p": "18.60",
+      "alt25": "1.59",
+      "ust25": "1.91"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -1538,13 +1538,13 @@
       "ms1": "4.79",
       "msX": "3.79",
       "ms2": "1.39",
-      "alt25": "1.84",
-      "ust25": "1.53",
-      "kgVar": "1.62",
-      "kgYok": "1.73",
-      "iy1": "5.07",
-      "iyX": "2.18",
-      "iy2": "1.85"
+      "alt25": "1.94",
+      "ust25": "1.47",
+      "kgVar": "1.56",
+      "kgYok": "1.81",
+      "iy1": "4.97",
+      "iyX": "2.25",
+      "iy2": "1.83"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -1719,16 +1719,16 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "3.49",
-      "msX": "3.41",
-      "ms2": "1.62",
+      "ms1": "3.69",
+      "msX": "3.48",
+      "ms2": "1.57",
       "alt25": "1.94",
       "ust25": "1.47",
-      "kgVar": "1.45",
-      "kgYok": "1.98",
-      "cs1X": "1.66",
+      "kgVar": "1.47",
+      "kgYok": "1.94",
+      "cs1X": "1.72",
       "cs12": "1.12",
-      "csX2": "1.11"
+      "csX2": "1.09"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -2744,14 +2744,14 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "3.45",
-      "msX": "3.44",
-      "ms2": "1.75",
-      "iy1": "3.88",
-      "iyX": "2.23",
-      "iy2": "2.26",
+      "ms1": "3.27",
+      "msX": "3.37",
+      "ms2": "1.83",
+      "iy1": "3.71",
+      "iyX": "2.21",
+      "iy2": "2.33",
       "alt35": "1.37",
-      "ust35": "2.39",
+      "ust35": "2.38",
       "skor10": "13.50",
       "skor20": "21.80",
       "skor21": "11.50",
@@ -2781,22 +2781,22 @@
       "skor15": "64.00",
       "skor06": "135.00",
       "skorDiger": "17.25",
-      "kgVar": "1.47",
-      "kgYok": "2.13",
-      "cs1X": "1.70",
-      "cs12": "1.17",
-      "csX2": "1.16",
-      "alt15": "4.23",
+      "kgVar": "1.45",
+      "kgYok": "2.17",
+      "cs1X": "1.64",
+      "cs12": "1.18",
+      "csX2": "1.19",
+      "alt15": "4.24",
       "ust15": "1.09",
-      "iyms11": "5.81",
-      "iyms1X": "14.10",
-      "iyms12": "22.80",
-      "iymsX1": "8.31",
-      "iymsXX": "5.55",
-      "iymsX2": "4.98",
-      "iyms21": "35.00",
-      "iyms2X": "13.15",
-      "iyms22": "2.62",
+      "iyms11": "5.44",
+      "iyms1X": "13.70",
+      "iyms12": "23.25",
+      "iymsX1": "7.96",
+      "iymsXX": "5.47",
+      "iymsX2": "5.13",
+      "iyms21": "33.50",
+      "iyms2X": "12.90",
+      "iyms22": "2.76",
       "iyskor00": "3.33",
       "iyskor11": "7.32",
       "iyskor22": "62.00",
@@ -2807,10 +2807,10 @@
       "iyskor02": "9.31",
       "iyskor12": "16.95",
       "iyskorDiger": "11.45",
-      "tg01": "4.22",
+      "tg01": "4.23",
       "tg23": "1.91",
       "tg45": "3.05",
-      "tg6p": "9.35",
+      "tg6p": "9.31",
       "alt25": "2.04",
       "ust25": "1.51"
     },
@@ -3458,10 +3458,10 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "17.70",
-      "msX": "8.54",
+      "ms1": "17.90",
+      "msX": "8.82",
       "ms2": "1.00",
-      "cs1X": "4.40",
+      "cs1X": "4.52",
       "cs12": "1.00",
       "csX2": "1.00",
       "alt25": "2.81",
@@ -3469,14 +3469,14 @@
       "alt35": "1.69",
       "ust35": "1.66",
       "tg01": "6.78",
-      "tg23": "2.19",
+      "tg23": "2.18",
       "tg45": "2.43",
       "tg6p": "4.69",
-      "kgVar": "2.07",
-      "kgYok": "1.41",
-      "iy1": "13.05",
-      "iyX": "3.20",
-      "iy2": "1.24"
+      "kgVar": "2.13",
+      "kgYok": "1.38",
+      "iy1": "13.75",
+      "iyX": "3.23",
+      "iy2": "1.23"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -4004,27 +4004,27 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "1.68",
-      "msX": "3.13",
-      "ms2": "3.56",
-      "iy1": "2.24",
-      "iyX": "1.98",
-      "iy2": "4.13",
-      "alt35": "1.16",
-      "ust35": "2.94",
-      "kgVar": "1.64",
-      "kgYok": "1.71",
-      "alt15": "2.96",
-      "ust15": "1.16",
-      "cs1X": "1.11",
+      "ms1": "1.66",
+      "msX": "3.11",
+      "ms2": "3.63",
+      "iy1": "2.23",
+      "iyX": "1.96",
+      "iy2": "4.22",
+      "alt35": "1.15",
+      "ust35": "3.01",
+      "kgVar": "1.66",
+      "kgYok": "1.68",
+      "alt15": "2.91",
+      "ust15": "1.17",
+      "cs1X": "1.10",
       "cs12": "1.15",
-      "csX2": "1.61",
-      "tg01": "3.03",
-      "tg23": "1.78",
-      "tg45": "3.69",
-      "tg6p": "15.50",
-      "alt25": "1.61",
-      "ust25": "1.74"
+      "csX2": "1.62",
+      "tg01": "2.96",
+      "tg23": "1.77",
+      "tg45": "3.75",
+      "tg6p": "16.20",
+      "alt25": "1.59",
+      "ust25": "1.76"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -4121,19 +4121,19 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "2.27",
+      "ms1": "2.22",
       "msX": "3.02",
-      "ms2": "2.36",
-      "cs1X": "1.29",
+      "ms2": "2.42",
+      "cs1X": "1.27",
       "cs12": "1.17",
-      "csX2": "1.32",
-      "kgVar": "1.40",
-      "kgYok": "2.09",
-      "iy1": "2.76",
-      "iyX": "2.08",
-      "iy2": "2.84",
-      "alt25": "1.88",
-      "ust25": "1.50"
+      "csX2": "1.33",
+      "kgVar": "1.41",
+      "kgYok": "2.05",
+      "iy1": "2.72",
+      "iyX": "2.07",
+      "iy2": "2.92",
+      "alt25": "1.85",
+      "ust25": "1.53"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -8006,16 +8006,16 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "1.25",
-      "msX": "4.53",
-      "ms2": "7.61",
+      "ms1": "1.24",
+      "msX": "4.56",
+      "ms2": "7.88",
       "alt35": "1.24",
       "ust35": "2.86",
-      "iy1": "1.70",
-      "iyX": "2.33",
-      "iy2": "7.40",
-      "kgVar": "2.01",
-      "kgYok": "1.53",
+      "iy1": "1.69",
+      "iyX": "2.34",
+      "iy2": "7.60",
+      "kgVar": "2.03",
+      "kgYok": "1.51",
       "skor10": "5.43",
       "skor20": "5.01",
       "skor21": "7.70",
@@ -8045,20 +8045,20 @@
       "skor15": "135.00",
       "skor06": "135.00",
       "skorDiger": "27.50",
-      "alt15": "3.49",
+      "alt15": "3.50",
       "ust15": "1.15",
       "cs1X": "1.00",
-      "cs12": "1.08",
-      "csX2": "2.72",
-      "iyms11": "1.75",
-      "iyms1X": "20.05",
+      "cs12": "1.07",
+      "csX2": "2.77",
+      "iyms11": "1.73",
+      "iyms1X": "20.30",
       "iyms12": "36.00",
-      "iymsX1": "3.82",
-      "iymsXX": "6.32",
-      "iymsX2": "15.45",
-      "iyms21": "25.00",
-      "iyms2X": "23.25",
-      "iyms22": "14.00",
+      "iymsX1": "3.81",
+      "iymsXX": "6.35",
+      "iymsX2": "15.95",
+      "iyms21": "25.50",
+      "iyms2X": "23.70",
+      "iyms22": "14.55",
       "iyskor00": "3.07",
       "iyskor11": "10.50",
       "iyskor22": "67.00",
@@ -8073,7 +8073,7 @@
       "ust25": "1.67",
       "tg01": "3.45",
       "tg23": "1.83",
-      "tg45": "3.51",
+      "tg45": "3.50",
       "tg6p": "13.30"
     },
     "source": "iddaa-sportsbookv2",
@@ -23520,7 +23520,7 @@
       "msX": "4.78",
       "ms2": "1.15"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -23928,7 +23928,7 @@
       "cs12": "1.21",
       "csX2": "1.31"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -24161,11 +24161,11 @@
     "outcome": null,
     "odds": {
       "ms1": "1.11",
-      "msX": "6.51",
-      "ms2": "10.20",
-      "iy1": "1.47",
-      "iyX": "2.86",
-      "iy2": "8.46",
+      "msX": "6.52",
+      "ms2": "10.60",
+      "iy1": "1.45",
+      "iyX": "2.88",
+      "iy2": "8.69",
       "alt35": "1.58",
       "ust35": "1.92",
       "skor10": "7.99",
@@ -24197,20 +24197,20 @@
       "skor15": "135.00",
       "skor06": "135.00",
       "skorDiger": "12.15",
-      "kgVar": "1.77",
-      "kgYok": "1.70",
+      "kgVar": "1.80",
+      "kgYok": "1.68",
       "cs1X": "1.00",
       "cs12": "1.00",
-      "csX2": "3.71",
-      "iyms11": "1.46",
+      "csX2": "3.76",
+      "iyms11": "1.45",
       "iyms1X": "24.60",
       "iyms12": "36.00",
-      "iymsX1": "3.93",
-      "iymsXX": "9.89",
-      "iymsX2": "21.90",
-      "iyms21": "21.15",
-      "iyms2X": "28.00",
-      "iyms22": "18.10",
+      "iymsX1": "3.95",
+      "iymsXX": "9.85",
+      "iymsX2": "22.80",
+      "iyms21": "21.50",
+      "iyms2X": "28.50",
+      "iyms22": "18.95",
       "alt15": "5.61",
       "ust15": "1.00",
       "iyskor00": "3.96",
@@ -24223,9 +24223,9 @@
       "iyskor02": "62.00",
       "iyskor12": "52.00",
       "iyskorDiger": "6.90",
-      "alt25": "2.60",
+      "alt25": "2.59",
       "ust25": "1.31",
-      "tg01": "5.72",
+      "tg01": "5.71",
       "tg23": "2.09",
       "tg45": "2.66",
       "tg6p": "6.10"
@@ -25079,7 +25079,46 @@
       "iymsX2": "7.81",
       "iyms21": "24.60",
       "iyms2X": "14.30",
-      "iyms22": "5.75"
+      "iyms22": "5.75",
+      "skor10": "6.31",
+      "skor20": "7.55",
+      "skor21": "6.69",
+      "skor30": "13.45",
+      "skor31": "11.90",
+      "skor32": "20.70",
+      "skor40": "32.00",
+      "skor41": "28.00",
+      "skor42": "49.00",
+      "skor50": "94.00",
+      "skor51": "85.00",
+      "skor60": "135.00",
+      "skor00": "8.89",
+      "skor11": "5.07",
+      "skor22": "10.45",
+      "skor33": "49.00",
+      "skor01": "9.08",
+      "skor02": "15.75",
+      "skor12": "9.62",
+      "skor03": "41.00",
+      "skor13": "25.00",
+      "skor23": "30.00",
+      "skor04": "135.00",
+      "skor14": "88.00",
+      "skor24": "105.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "25.50",
+      "iyskor00": "2.76",
+      "iyskor11": "7.54",
+      "iyskor22": "67.00",
+      "iyskor10": "3.84",
+      "iyskor20": "10.15",
+      "iyskor21": "20.10",
+      "iyskor01": "5.63",
+      "iyskor02": "22.10",
+      "iyskor12": "29.50",
+      "iyskorDiger": "15.00"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -25114,7 +25153,7 @@
       "iyms2X": "14.30",
       "iyms22": "5.75"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -25180,7 +25219,7 @@
       "cs12": "1.17",
       "csX2": "1.22"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -25312,7 +25351,7 @@
       "cs12": "1.17",
       "csX2": "1.38"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -25378,7 +25417,7 @@
       "cs12": "1.16",
       "csX2": "1.49"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -25528,7 +25567,7 @@
       "cs12": "1.24",
       "csX2": "1.29"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -26225,7 +26264,46 @@
       "iymsX2": "8.19",
       "iyms21": "20.15",
       "iyms2X": "13.30",
-      "iyms22": "4.99"
+      "iyms22": "4.99",
+      "skor10": "10.90",
+      "skor20": "10.60",
+      "skor21": "7.12",
+      "skor30": "15.30",
+      "skor31": "10.25",
+      "skor32": "13.45",
+      "skor40": "29.50",
+      "skor41": "19.60",
+      "skor42": "26.00",
+      "skor50": "72.00",
+      "skor51": "47.50",
+      "skor60": "135.00",
+      "skor00": "18.10",
+      "skor11": "6.54",
+      "skor22": "8.31",
+      "skor33": "23.25",
+      "skor01": "14.75",
+      "skor02": "19.40",
+      "skor12": "9.58",
+      "skor03": "38.00",
+      "skor13": "18.70",
+      "skor23": "18.15",
+      "skor04": "98.00",
+      "skor14": "49.00",
+      "skor24": "47.50",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "8.88",
+      "iyskor00": "3.87",
+      "iyskor11": "6.46",
+      "iyskor22": "41.00",
+      "iyskor10": "4.37",
+      "iyskor20": "9.35",
+      "iyskor21": "13.85",
+      "iyskor01": "5.97",
+      "iyskor02": "17.60",
+      "iyskor12": "19.05",
+      "iyskorDiger": "8.49"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -26260,7 +26338,7 @@
       "iyms2X": "13.30",
       "iyms22": "4.99"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -26310,7 +26388,7 @@
       "cs12": "1.19",
       "csX2": "1.61"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -26376,7 +26454,7 @@
       "cs12": "1.00",
       "csX2": "4.54"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -26491,7 +26569,46 @@
       "iymsX2": "10.80",
       "iyms21": "19.50",
       "iyms2X": "15.95",
-      "iyms22": "7.54"
+      "iyms22": "7.54",
+      "skor10": "8.51",
+      "skor20": "7.68",
+      "skor21": "6.54",
+      "skor30": "10.25",
+      "skor31": "8.71",
+      "skor32": "14.55",
+      "skor40": "18.15",
+      "skor41": "15.40",
+      "skor42": "26.00",
+      "skor50": "40.50",
+      "skor51": "34.00",
+      "skor60": "105.00",
+      "skor00": "16.15",
+      "skor11": "6.83",
+      "skor22": "10.25",
+      "skor33": "34.50",
+      "skor01": "15.80",
+      "skor02": "26.50",
+      "skor12": "12.10",
+      "skor03": "67.00",
+      "skor13": "30.00",
+      "skor23": "27.50",
+      "skor04": "135.00",
+      "skor14": "105.00",
+      "skor24": "90.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "10.60",
+      "iyskor00": "3.70",
+      "iyskor11": "7.07",
+      "iyskor22": "54.00",
+      "iyskor10": "3.74",
+      "iyskor20": "7.34",
+      "iyskor21": "14.00",
+      "iyskor01": "7.10",
+      "iyskor02": "27.00",
+      "iyskor12": "27.00",
+      "iyskorDiger": "8.40"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -26526,7 +26643,7 @@
       "iyms2X": "15.95",
       "iyms22": "7.54"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -26658,7 +26775,7 @@
       "cs12": "1.15",
       "csX2": "1.11"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -28070,7 +28187,7 @@
       "cs12": "1.15",
       "csX2": "1.15"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -28570,7 +28687,7 @@
       "cs12": "1.20",
       "csX2": "1.54"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -28619,7 +28736,46 @@
       "iymsX2": "7.80",
       "iyms21": "25.00",
       "iyms2X": "14.60",
-      "iyms22": "5.78"
+      "iyms22": "5.78",
+      "skor10": "7.00",
+      "skor20": "8.51",
+      "skor21": "7.59",
+      "skor30": "15.45",
+      "skor31": "13.75",
+      "skor32": "24.15",
+      "skor40": "37.50",
+      "skor41": "33.00",
+      "skor42": "59.00",
+      "skor50": "110.00",
+      "skor51": "105.00",
+      "skor60": "135.00",
+      "skor00": "9.98",
+      "skor11": "5.73",
+      "skor22": "12.20",
+      "skor33": "59.00",
+      "skor01": "10.10",
+      "skor02": "17.80",
+      "skor12": "10.95",
+      "skor03": "47.50",
+      "skor13": "29.00",
+      "skor23": "35.50",
+      "skor04": "135.00",
+      "skor14": "105.00",
+      "skor24": "125.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "31.00",
+      "iyskor00": "2.80",
+      "iyskor11": "7.90",
+      "iyskor22": "67.00",
+      "iyskor10": "3.97",
+      "iyskor20": "10.70",
+      "iyskor21": "21.40",
+      "iyskor01": "5.83",
+      "iyskor02": "23.25",
+      "iyskor12": "31.50",
+      "iyskorDiger": "16.05"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -28654,7 +28810,7 @@
       "iyms2X": "14.60",
       "iyms22": "5.78"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -28756,7 +28912,7 @@
       "cs12": "1.15",
       "csX2": "1.63"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -28786,7 +28942,7 @@
       "msX": "3.17",
       "ms2": "2.40"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -29373,7 +29529,46 @@
       "iymsX2": "4.22",
       "iyms21": "36.00",
       "iyms2X": "16.40",
-      "iyms22": "1.92"
+      "iyms22": "1.92",
+      "skor10": "16.00",
+      "skor20": "34.00",
+      "skor21": "16.00",
+      "skor30": "105.00",
+      "skor31": "50.00",
+      "skor32": "47.50",
+      "skor40": "135.00",
+      "skor41": "135.00",
+      "skor42": "135.00",
+      "skor50": "135.00",
+      "skor51": "135.00",
+      "skor60": "135.00",
+      "skor00": "13.95",
+      "skor11": "7.46",
+      "skor22": "14.70",
+      "skor33": "65.00",
+      "skor01": "7.21",
+      "skor02": "6.78",
+      "skor12": "7.19",
+      "skor03": "9.49",
+      "skor13": "10.00",
+      "skor23": "21.10",
+      "skor04": "17.60",
+      "skor14": "18.65",
+      "skor24": "39.50",
+      "skor05": "41.00",
+      "skor15": "43.50",
+      "skor06": "115.00",
+      "skorDiger": "18.75",
+      "iyskor00": "3.35",
+      "iyskor11": "8.26",
+      "iyskor22": "67.00",
+      "iyskor10": "7.96",
+      "iyskor20": "38.00",
+      "iyskor21": "39.50",
+      "iyskor01": "3.46",
+      "iyskor02": "7.12",
+      "iyskor12": "17.10",
+      "iyskorDiger": "10.15"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -29408,7 +29603,7 @@
       "iyms2X": "16.40",
       "iyms22": "1.92"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -29706,7 +29901,7 @@
       "cs12": "1.12",
       "csX2": "1.66"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -30054,7 +30249,7 @@
       "cs12": "1.14",
       "csX2": "1.33"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -30436,7 +30631,7 @@
       "cs12": "1.21",
       "csX2": "1.34"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -30752,7 +30947,7 @@
       "cs12": "1.16",
       "csX2": "1.22"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -30984,7 +31179,7 @@
       "cs12": "1.15",
       "csX2": "1.58"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31084,7 +31279,7 @@
       "cs12": "1.15",
       "csX2": "1.29"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31200,7 +31395,7 @@
       "cs12": "1.14",
       "csX2": "1.18"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31250,7 +31445,7 @@
       "cs12": "1.20",
       "csX2": "1.33"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31576,7 +31771,7 @@
       "cs12": "1.12",
       "csX2": "1.79"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31726,7 +31921,7 @@
       "cs12": "1.16",
       "csX2": "1.39"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31776,7 +31971,7 @@
       "cs12": "1.13",
       "csX2": "1.19"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31862,7 +32057,7 @@
       "cs12": "1.12",
       "csX2": "1.71"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31912,7 +32107,7 @@
       "cs12": "1.00",
       "csX2": "2.43"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -31998,7 +32193,7 @@
       "cs12": "1.00",
       "csX2": "3.03"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -33962,7 +34157,7 @@
       "cs12": "1.15",
       "csX2": "1.25"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34012,7 +34207,7 @@
       "cs12": "1.15",
       "csX2": "1.52"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34062,7 +34257,7 @@
       "cs12": "1.13",
       "csX2": "1.67"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34112,7 +34307,7 @@
       "cs12": "1.15",
       "csX2": "1.47"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34162,7 +34357,7 @@
       "cs12": "1.11",
       "csX2": "1.88"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34212,7 +34407,7 @@
       "cs12": "1.17",
       "csX2": "1.49"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34262,7 +34457,7 @@
       "cs12": "1.18",
       "csX2": "1.48"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34312,7 +34507,7 @@
       "cs12": "1.15",
       "csX2": "1.20"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34362,7 +34557,7 @@
       "cs12": "1.14",
       "csX2": "1.11"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34412,7 +34607,7 @@
       "cs12": "1.16",
       "csX2": "1.40"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34462,7 +34657,7 @@
       "cs12": "1.15",
       "csX2": "1.62"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34512,7 +34707,7 @@
       "cs12": "1.16",
       "csX2": "1.41"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34562,7 +34757,7 @@
       "cs12": "1.15",
       "csX2": "1.62"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34628,7 +34823,7 @@
       "cs12": "1.19",
       "csX2": "1.38"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34694,7 +34889,7 @@
       "cs12": "1.19",
       "csX2": "1.28"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34760,7 +34955,7 @@
       "cs12": "1.18",
       "csX2": "1.23"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34826,7 +35021,7 @@
       "cs12": "1.16",
       "csX2": "1.56"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34876,7 +35071,7 @@
       "cs12": "1.13",
       "csX2": "1.63"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -34942,7 +35137,7 @@
       "cs12": "1.07",
       "csX2": "2.25"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35008,7 +35203,7 @@
       "cs12": "1.07",
       "csX2": "2.25"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35058,7 +35253,7 @@
       "cs12": "1.19",
       "csX2": "1.22"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35094,7 +35289,7 @@
       "cs12": "1.21",
       "csX2": "1.16"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35144,7 +35339,7 @@
       "cs12": "1.11",
       "csX2": "1.97"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35193,7 +35388,46 @@
       "iymsX2": "10.60",
       "iyms21": "23.25",
       "iyms2X": "16.85",
-      "iyms22": "8.41"
+      "iyms22": "8.41",
+      "skor10": "6.66",
+      "skor20": "6.93",
+      "skor21": "7.24",
+      "skor30": "10.70",
+      "skor31": "11.20",
+      "skor32": "23.25",
+      "skor40": "22.00",
+      "skor41": "23.25",
+      "skor42": "48.50",
+      "skor50": "57.00",
+      "skor51": "60.00",
+      "skor60": "135.00",
+      "skor00": "11.25",
+      "skor11": "6.49",
+      "skor22": "13.90",
+      "skor33": "67.00",
+      "skor01": "13.20",
+      "skor02": "27.50",
+      "skor12": "14.35",
+      "skor03": "86.00",
+      "skor13": "44.50",
+      "skor23": "46.50",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "25.50",
+      "iyskor00": "3.03",
+      "iyskor11": "8.29",
+      "iyskor22": "67.00",
+      "iyskor10": "3.53",
+      "iyskor20": "8.05",
+      "iyskor21": "19.00",
+      "iyskor01": "7.20",
+      "iyskor02": "34.00",
+      "iyskor12": "39.00",
+      "iyskorDiger": "12.55"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -35228,7 +35462,7 @@
       "iyms2X": "16.85",
       "iyms22": "8.41"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35277,7 +35511,46 @@
       "iymsX2": "6.27",
       "iyms21": "33.50",
       "iyms2X": "15.10",
-      "iyms22": "4.96"
+      "iyms22": "4.96",
+      "skor10": "5.66",
+      "skor20": "9.08",
+      "skor21": "8.82",
+      "skor30": "21.95",
+      "skor31": "21.25",
+      "skor32": "41.00",
+      "skor40": "71.00",
+      "skor41": "69.00",
+      "skor42": "135.00",
+      "skor50": "135.00",
+      "skor51": "135.00",
+      "skor60": "135.00",
+      "skor00": "6.28",
+      "skor11": "5.13",
+      "skor22": "15.75",
+      "skor33": "110.00",
+      "skor01": "6.68",
+      "skor02": "12.75",
+      "skor12": "10.45",
+      "skor03": "36.50",
+      "skor13": "30.00",
+      "skor23": "48.50",
+      "skor04": "135.00",
+      "skor14": "115.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "81.00",
+      "iyskor00": "2.23",
+      "iyskor11": "9.22",
+      "iyskor22": "67.00",
+      "iyskor10": "4.27",
+      "iyskor20": "15.40",
+      "iyskor21": "33.50",
+      "iyskor01": "5.08",
+      "iyskor02": "21.95",
+      "iyskor12": "40.00",
+      "iyskorDiger": "28.50"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -35312,7 +35585,7 @@
       "iyms2X": "15.10",
       "iyms22": "4.96"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35378,7 +35651,7 @@
       "cs12": "1.18",
       "csX2": "1.32"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35408,7 +35681,7 @@
       "msX": "3.15",
       "ms2": "1.83"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35474,7 +35747,7 @@
       "cs12": "1.16",
       "csX2": "1.50"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35524,7 +35797,7 @@
       "cs12": "1.20",
       "csX2": "1.56"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35574,7 +35847,7 @@
       "cs12": "1.15",
       "csX2": "1.58"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35640,7 +35913,7 @@
       "cs12": "1.15",
       "csX2": "1.29"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35684,7 +35957,7 @@
       "iyX": "1.88",
       "iy2": "2.50"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35733,7 +36006,46 @@
       "iymsX2": "25.50",
       "iyms21": "19.90",
       "iyms2X": "28.00",
-      "iyms22": "19.90"
+      "iyms22": "19.90",
+      "skor10": "10.95",
+      "skor20": "7.33",
+      "skor21": "8.70",
+      "skor30": "7.29",
+      "skor31": "8.65",
+      "skor32": "20.30",
+      "skor40": "9.58",
+      "skor41": "11.40",
+      "skor42": "27.00",
+      "skor50": "15.75",
+      "skor51": "18.70",
+      "skor60": "31.00",
+      "skor00": "29.50",
+      "skor11": "13.40",
+      "skor22": "21.05",
+      "skor33": "74.00",
+      "skor01": "39.00",
+      "skor02": "94.00",
+      "skor12": "31.00",
+      "skor03": "135.00",
+      "skor13": "105.00",
+      "skor23": "72.00",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "7.32",
+      "iyskor00": "4.93",
+      "iyskor11": "9.35",
+      "iyskor22": "67.00",
+      "iyskor10": "3.46",
+      "iyskor20": "5.02",
+      "iyskor21": "13.55",
+      "iyskor01": "12.80",
+      "iyskor02": "67.00",
+      "iyskor12": "51.00",
+      "iyskorDiger": "5.04"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -35768,7 +36080,7 @@
       "iyms2X": "28.00",
       "iyms22": "19.90"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35817,7 +36129,46 @@
       "iymsX2": "15.10",
       "iyms21": "23.25",
       "iyms2X": "20.95",
-      "iyms22": "12.80"
+      "iyms22": "12.80",
+      "skor10": "6.48",
+      "skor20": "5.90",
+      "skor21": "7.40",
+      "skor30": "7.96",
+      "skor31": "10.00",
+      "skor32": "25.00",
+      "skor40": "14.30",
+      "skor41": "18.00",
+      "skor42": "44.50",
+      "skor50": "32.00",
+      "skor51": "40.50",
+      "skor60": "87.00",
+      "skor00": "12.80",
+      "skor11": "7.82",
+      "skor22": "17.70",
+      "skor33": "90.00",
+      "skor01": "17.70",
+      "skor02": "44.50",
+      "skor12": "20.25",
+      "skor03": "135.00",
+      "skor13": "76.00",
+      "skor23": "69.00",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "21.00",
+      "iyskor00": "3.28",
+      "iyskor11": "9.17",
+      "iyskor22": "67.00",
+      "iyskor10": "3.22",
+      "iyskor20": "6.37",
+      "iyskor21": "18.25",
+      "iyskor01": "9.13",
+      "iyskor02": "53.00",
+      "iyskor12": "53.00",
+      "iyskorDiger": "9.71"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -35852,7 +36203,7 @@
       "iyms2X": "20.95",
       "iyms22": "12.80"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35901,7 +36252,46 @@
       "iymsX2": "11.30",
       "iyms21": "20.65",
       "iyms2X": "16.55",
-      "iyms22": "8.31"
+      "iyms22": "8.31",
+      "skor10": "8.53",
+      "skor20": "7.88",
+      "skor21": "7.30",
+      "skor30": "10.85",
+      "skor31": "10.00",
+      "skor32": "18.35",
+      "skor40": "19.75",
+      "skor41": "18.25",
+      "skor42": "33.50",
+      "skor50": "45.50",
+      "skor51": "41.50",
+      "skor60": "125.00",
+      "skor00": "15.90",
+      "skor11": "7.36",
+      "skor22": "12.40",
+      "skor33": "46.50",
+      "skor01": "16.90",
+      "skor02": "31.50",
+      "skor12": "14.45",
+      "skor03": "86.00",
+      "skor13": "40.00",
+      "skor23": "36.50",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "14.75",
+      "iyskor00": "3.59",
+      "iyskor11": "7.67",
+      "iyskor22": "65.00",
+      "iyskor10": "3.70",
+      "iyskor20": "7.47",
+      "iyskor21": "15.55",
+      "iyskor01": "7.52",
+      "iyskor02": "31.50",
+      "iyskor12": "32.00",
+      "iyskorDiger": "9.44"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -35936,7 +36326,7 @@
       "iyms2X": "16.55",
       "iyms22": "8.31"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -35985,7 +36375,46 @@
       "iymsX2": "7.18",
       "iyms21": "26.00",
       "iyms2X": "13.90",
-      "iyms22": "5.14"
+      "iyms22": "5.14",
+      "skor10": "7.31",
+      "skor20": "9.35",
+      "skor21": "7.87",
+      "skor30": "17.85",
+      "skor31": "15.00",
+      "skor32": "25.00",
+      "skor40": "45.50",
+      "skor41": "38.00",
+      "skor42": "64.00",
+      "skor50": "135.00",
+      "skor51": "120.00",
+      "skor60": "135.00",
+      "skor00": "9.71",
+      "skor11": "5.54",
+      "skor22": "11.70",
+      "skor33": "55.00",
+      "skor01": "9.44",
+      "skor02": "15.70",
+      "skor12": "10.20",
+      "skor03": "39.50",
+      "skor13": "25.00",
+      "skor23": "32.50",
+      "skor04": "130.00",
+      "skor14": "84.00",
+      "skor24": "105.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "32.00",
+      "iyskor00": "2.77",
+      "iyskor11": "7.80",
+      "iyskor22": "67.00",
+      "iyskor10": "4.17",
+      "iyskor20": "11.85",
+      "iyskor21": "22.30",
+      "iyskor01": "5.46",
+      "iyskor02": "20.40",
+      "iyskor12": "29.00",
+      "iyskorDiger": "16.85"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -36020,7 +36449,7 @@
       "iyms2X": "13.90",
       "iyms22": "5.14"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36070,7 +36499,7 @@
       "cs12": "1.24",
       "csX2": "1.42"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36120,7 +36549,7 @@
       "cs12": "1.17",
       "csX2": "1.26"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36164,7 +36593,7 @@
       "iyX": "1.96",
       "iy2": "2.09"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36214,7 +36643,7 @@
       "cs12": "1.14",
       "csX2": "1.92"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36280,7 +36709,7 @@
       "cs12": "1.19",
       "csX2": "1.24"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36346,7 +36775,7 @@
       "cs12": "1.00",
       "csX2": "1.00"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36412,7 +36841,7 @@
       "cs12": "1.00",
       "csX2": "1.00"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36474,7 +36903,7 @@
       "cs12": "1.00",
       "csX2": "1.00"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36524,7 +36953,7 @@
       "cs12": "1.07",
       "csX2": "2.19"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36574,7 +37003,7 @@
       "cs12": "1.08",
       "csX2": "1.07"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36624,7 +37053,7 @@
       "cs12": "1.19",
       "csX2": "1.33"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36673,7 +37102,46 @@
       "iymsX2": "10.75",
       "iyms21": "21.30",
       "iyms2X": "16.50",
-      "iyms22": "8.06"
+      "iyms22": "8.06",
+      "skor10": "7.86",
+      "skor20": "7.62",
+      "skor21": "7.23",
+      "skor30": "10.95",
+      "skor31": "10.45",
+      "skor32": "19.55",
+      "skor40": "21.10",
+      "skor41": "20.00",
+      "skor42": "37.50",
+      "skor50": "51.00",
+      "skor51": "48.50",
+      "skor60": "135.00",
+      "skor00": "14.15",
+      "skor11": "7.00",
+      "skor22": "12.70",
+      "skor33": "52.00",
+      "skor01": "15.15",
+      "skor02": "28.50",
+      "skor12": "13.95",
+      "skor03": "81.00",
+      "skor13": "39.50",
+      "skor23": "38.00",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "17.70",
+      "iyskor00": "3.37",
+      "iyskor11": "7.80",
+      "iyskor22": "67.00",
+      "iyskor10": "3.66",
+      "iyskor20": "7.79",
+      "iyskor21": "16.65",
+      "iyskor01": "7.26",
+      "iyskor02": "31.00",
+      "iyskor12": "33.00",
+      "iyskorDiger": "10.55"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -36708,7 +37176,7 @@
       "iyms2X": "16.50",
       "iyms22": "8.06"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36774,7 +37242,7 @@
       "cs12": "1.23",
       "csX2": "1.29"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36840,7 +37308,7 @@
       "cs12": "1.17",
       "csX2": "1.47"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36889,7 +37357,46 @@
       "iymsX2": "12.20",
       "iyms21": "24.15",
       "iyms2X": "19.95",
-      "iyms22": "10.50"
+      "iyms22": "10.50",
+      "skor10": "5.64",
+      "skor20": "5.82",
+      "skor21": "7.26",
+      "skor30": "8.91",
+      "skor31": "11.15",
+      "skor32": "27.50",
+      "skor40": "18.15",
+      "skor41": "22.80",
+      "skor42": "57.00",
+      "skor50": "46.50",
+      "skor51": "58.00",
+      "skor60": "135.00",
+      "skor00": "10.35",
+      "skor11": "7.08",
+      "skor22": "18.05",
+      "skor33": "105.00",
+      "skor01": "13.45",
+      "skor02": "33.50",
+      "skor12": "17.35",
+      "skor03": "125.00",
+      "skor13": "65.00",
+      "skor23": "67.00",
+      "skor04": "135.00",
+      "skor14": "135.00",
+      "skor24": "135.00",
+      "skor05": "135.00",
+      "skor15": "135.00",
+      "skor06": "135.00",
+      "skorDiger": "32.00",
+      "iyskor00": "2.88",
+      "iyskor11": "9.22",
+      "iyskor22": "67.00",
+      "iyskor10": "3.27",
+      "iyskor20": "7.37",
+      "iyskor21": "20.95",
+      "iyskor01": "8.07",
+      "iyskor02": "45.50",
+      "iyskor12": "52.00",
+      "iyskorDiger": "12.90"
     },
     "source": "iddaa-sportsbookv2",
     "openingOdds": {
@@ -36924,7 +37431,7 @@
       "iyms2X": "19.95",
       "iyms22": "10.50"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -36974,7 +37481,7 @@
       "cs12": "1.07",
       "csX2": "2.09"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -37024,7 +37531,7 @@
       "cs12": "1.09",
       "csX2": "2.09"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
@@ -37068,7 +37575,7 @@
       "iyX": "1.92",
       "iy2": "3.25"
     },
-    "hasFullScoreMarkets": false,
+    "hasFullScoreMarkets": true,
     "oddsLockedAt": null
   },
   {
