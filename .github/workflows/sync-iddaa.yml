@@ -4,10 +4,15 @@ on:
   schedule:
     # 7/24 her 20 dakikada bir otomatik çalışır
     - cron: '*/20 * * * *'
-  workflow_dispatch: # GitHub arayüzünden tek tıkla manuel çalıştırma desteği
+  workflow_dispatch: # GitHub arayüzünden ve cron-job.org üzerinden tetikleme desteği
 
 permissions:
   contents: write
+
+# Aynı anda iki botun çakışmasını (merge conflict) engeller, sırayla çalıştırır
+concurrency:
+  group: sync-iddaa-archive
+  cancel-in-progress: false
 
 jobs:
   sync-matches:
@@ -15,6 +20,11 @@ jobs:
     steps:
       - name: Depoyu İndir (Checkout)
         uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: En Güncel Veritabanını Çek
+        run: git pull origin main --no-edit
 
       - name: Node.js 22 Kurulumu
         uses: actions/setup-node@v4
@@ -33,7 +43,13 @@ jobs:
             echo "Veritabanında değişiklik yok."
           else
             git commit -m "Otomatik Bülten & Kapanış Oranı Güncellemesi ($(date -u +'%d.%m.%Y %H:%M UTC'))"
-            git pull --rebase origin main || true
-            git push
+            if ! git push origin HEAD:main; then
+              echo "Uzak depoda yeni kayıt var, yeniden birleştiriliyor..."
+              git reset --hard origin/main
+              git pull origin main --no-edit
+              node backend/sync-cli.js
+              git add backend/data/matches.json
+              git commit -m "Otomatik Bülten & Kapanış Oranı Güncellemesi ($(date -u +'%d.%m.%Y %H:%M UTC'))" || true
+              git push origin HEAD:main
+            fi
           fi
-
