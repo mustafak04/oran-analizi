@@ -22,21 +22,21 @@
       "cs1X": "1.00",
       "cs12": "1.05",
       "csX2": "2.28",
-      "alt25": "1.85",
-      "ust25": "1.51",
-      "alt15": "3.52",
-      "ust15": "1.09",
-      "alt35": "1.26",
-      "ust35": "2.43",
-      "tg01": "3.68",
-      "tg23": "1.82",
-      "tg45": "3.12",
-      "tg6p": "10.45",
-      "kgVar": "1.73",
-      "kgYok": "1.60",
-      "iy1": "1.68",
-      "iyX": "2.26",
-      "iy2": "6.10"
+      "alt25": "1.94",
+      "ust25": "1.46",
+      "alt15": "3.76",
+      "ust15": "1.07",
+      "alt35": "1.31",
+      "ust35": "2.28",
+      "tg01": "3.98",
+      "tg23": "1.85",
+      "tg45": "2.98",
+      "tg6p": "9.21",
+      "kgVar": "1.66",
+      "kgYok": "1.66",
+      "iy1": "1.66",
+      "iyX": "2.31",
+      "iy2": "5.99"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -686,9 +686,9 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "4.24",
-      "msX": "3.80",
-      "ms2": "1.42"
+      "ms1": "5.67",
+      "msX": "4.14",
+      "ms2": "1.27"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -1071,9 +1071,9 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "2.67",
-      "msX": "3.36",
-      "ms2": "1.89"
+      "ms1": "2.84",
+      "msX": "3.20",
+      "ms2": "1.86"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
@@ -1526,9 +1526,9 @@
     "ftScore": "-",
     "outcome": null,
     "odds": {
-      "ms1": "3.58",
-      "msX": "3.09",
-      "ms2": "1.67"
+      "ms1": "3.97",
+      "msX": "3.08",
+      "ms2": "1.60"
     },
     "source": "iddaa-sportsbookv2",
     "hasFullScoreMarkets": true,
